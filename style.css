@@ -18,12 +18,12 @@ a:visited {
     color: lightskyblue
 }
 
-h1.{
+h1 {
     border-bottom: #f0f0f0;
     color: antiquewhite
 }
 
-.p {
+p {
     font-family:Arial, Helvetica, sans-serif;
     color:antiquewhite;
 }
