@@ -15,11 +15,12 @@ a:hover {
 
 a:visited {
     text-decoration: underline;
-    color:lightgrey
+    color: lightskyblue
 }
 
 h1.{
     border-bottom: #f0f0f0;
+    color: antiquewhite
 }
 
 .p {
