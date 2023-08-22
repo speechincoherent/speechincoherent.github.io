@@ -1,5 +1,5 @@
 /* get out of here why are you here please leave */
-a:link. {
+a:link {
     color:antiquewhite
 }
 
@@ -26,5 +26,5 @@ p {
 body {
     background-image: url(black\ backgroujnd.jpg);
     background-color: black;
-    background-repeat repeat;
+    background-repeat:repeat;
 }
