@@ -1,6 +1,7 @@
 /* get out of here why are you here please leave */
 a:link {
-    color:antiquewhite
+    color:antiquewhite;
+    text-decoration: none;
 }
 
 a:hover {
@@ -9,8 +10,7 @@ a:hover {
 }
 
 a:visited {
-    text-decoration: underline;
-    color: lightskyblue
+    color: rgb(129, 166, 190)
 }
 
 h1 {
@@ -25,6 +25,7 @@ p {
 
 body {
     background-image: url("black backgroujnd.jpg");
+    background-size: cover;
     background-color: black;
     background-repeat: repeat;
 }
