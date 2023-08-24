@@ -1,18 +1,4 @@
 /* get out of here why are you here please leave */
-a:link {
-    color:antiquewhite;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    text-shadow: #ffffff;
-}
-
-a:visited {
-    color: rgb(129, 166, 190)
-}
-
 h1 {
     border-bottom: #f0f0f0;
     color: antiquewhite
