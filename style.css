@@ -1,9 +1,4 @@
 /* get out of here why are you here please leave */
-h1 {
-    border-bottom: #f0f0f0;
-    color: antiquewhite
-}
-
 p {
     font-family:Arial, Helvetica, sans-serif;
     color:antiquewhite;
@@ -24,5 +19,20 @@ a {
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color:antiquewhite
+    color:antiquewhite;
+    border-bottom:antiquewhite;
+}
+.button {
+    background-color:#101010;
+    border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 3px solid #555555;
 }
