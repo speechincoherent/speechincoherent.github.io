@@ -25,6 +25,11 @@ h1 {
     color:antiquewhite;
     border-bottom:antiquewhite;
 }
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:antiquewhite;
+    border-bottom:antiquewhite;
+}
 .button {
     background-color:#101010;
     border: none;
