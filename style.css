@@ -36,8 +36,9 @@ img {
     float:right;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.infoDiv {
+    background-color:#3f3f3f;
+    border-image: linear-gradient(#ffffff, black) 30;
+    border-width: 2px;
+    border-style: solid;
+}
