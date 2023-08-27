@@ -37,7 +37,7 @@ img {
 }
 
 .infoDiv {
-    background-color:#3f3f3f;
+    background-color:black;
     border-image: linear-gradient(#ffffff, black) 30;
     border-width: 2px;
     border-style: solid;
