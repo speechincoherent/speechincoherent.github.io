@@ -38,7 +38,15 @@ img {
 
 .infoDiv {
     background: color #000;;
-    border-image: linear-gradient(#ffffff, black) 30;
+    border-color: white;
     border-width: 2px;
     border-style: solid;
+}
+
+.puzzleIntroLink {
+    text-align: center;
+}
+
+.puzzleIntroLink:hover {
+    text-shadow: 1px 1px 3px #FFFFFF
 }
