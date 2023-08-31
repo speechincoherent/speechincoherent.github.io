@@ -6,15 +6,15 @@
 <body>
     <script>window.onload = choosePic;
 
-        var myPix = new Array("/puzzle/title-1.png","/puzzle/title-2.png","/puzzle/titulo-3.png","/puzzle/title-4.png","/puzzle/title-5.png",);
+        var myPix = new Array("title-1.png","title-2.png","titulo-3.png","title-4.png","title-5.png",);
         
         function choosePic() {
              var randomNum = Math.floor(Math.random() * myPix.length);
-             document.getElementById("myPicture").src = myPix[randomNum];}</script>
+             document.getElementById("titleRandom").src = myPix[randomNum];}</script>
         <div class="puzDiv">
-        <img id="titleRandom" style="align-content:center;" src="../fellas/assets/puzzle/title-1.png" >
-        <a class="puzzleIntroLink">play game</a><br><br>
-        <a class="puzzleIntroLink" href="../">go back</a>
+        <img id="titleRandom" style="align-content:center;" src="title-1.png" >
         </div>
+        <a class="puzzleIntroLink" href="one.html">play game</a><br><br>
+        <a class="puzzleIntroLink" href="../">go back</a>
 </body>
 </html>
