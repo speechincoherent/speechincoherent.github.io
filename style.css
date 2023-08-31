@@ -43,10 +43,15 @@ img {
     border-style: solid;
 }
 
-a.puzzleIntroLink {
+.puzzleIntroLink {
     color:#FFFFFF;
+    text-align: center;
 }
-a.puzzleIntroLink:hover {
+.puzzleIntroLink:hover {
     text-shadow: 1px 1px 2px #ffffff77;
     text-decoration: underline;
+}
+.puzDiv {
+border: 1px outset #ffffff;
+
 }

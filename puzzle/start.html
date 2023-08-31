@@ -4,8 +4,10 @@
     <title>start</title>
 </head>
 <body>
-    <script>var x = Math.floor(Math.random*5)+1;
-        if (x = 1) {
+    <script>
+        window.onload = randomTitle
+        var x = Math.floor(Math.random*5)+1;
+        function randomTitle() {if (x = 1) {
             Document.getElementById("titleRandom").src= "../assets/puzzle/title-1.png";
         }
         else if (x = 2) {
@@ -19,9 +21,11 @@
         } 
         else if (x = 5) {
             Document.getElementById("titleRandom").src= "../assets/puzzle/title-5.png";
-        } </script>
+        }} </script>
+        <div class="puzDiv">
         <img id="titleRandom" style="align-content:center;" src="../fellas/assets/puzzle/title-1.png" >
         <a class="puzzleIntroLink">play game</a><br><br>
         <a class="puzzleIntroLink">go back</a>
+        </div>
 </body>
 </html>
