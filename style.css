@@ -18,6 +18,7 @@ a {
 }
 a:hover {
     text-decoration:underline;
+    text-shadow: 1px 1px 2px #ffffff
 }
 
 h1 {
@@ -43,15 +44,12 @@ img {
     border-style: solid;
 }
 
-.puzzleIntroLink {
-    color:#FFFFFF;
+a.puzzle{
+    font-size: large;
     text-align: center;
 }
-.puzzleIntroLink:hover {
-    text-shadow: 1px 1px 2px #ffffff77;
-    text-decoration: underline;
-}
-.puzDiv {
+
+div.puzDiv {
 border: 1px outset #ffffff;
 text-align: center;
 }
