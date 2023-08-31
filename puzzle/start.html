@@ -6,13 +6,13 @@
 <body>
     <script>window.onload = choosePic;
 
-        var myPix = new Array("title-1.png","title-2.png","titulo-3.png","title-4.png","title-5.png",);
+        var myPix = new Array("/title-1.png","/title-2.png","/titulo-3.png","/title-4.png","/title-5.png",);
         
         function choosePic() {
              var randomNum = Math.floor(Math.random() * myPix.length);
              document.getElementById("titleRandom").src = myPix[randomNum];}</script>
         <div class="puzDiv">
-        <img id="titleRandom" style="align-content:center;" src="title-1.png" >
+        <img id="titleRandom" style="align-content:center;" src="/title-1.png" >
         </div>
         <a class="puzzleIntroLink" href="one.html">play game</a><br><br>
         <a class="puzzleIntroLink" href="../">go back</a>
