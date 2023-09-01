@@ -53,3 +53,9 @@ div.puzDiv {
 border: 1px outset #ffffff;
 text-align: center;
 }
+
+p.puzzle {
+    text-align: center;
+    color:#ffffff;
+    font-size: medium;
+}
