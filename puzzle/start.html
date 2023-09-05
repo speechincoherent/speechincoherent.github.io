@@ -4,15 +4,9 @@
     <title>start</title>
 </head>
 <body>
-    <script>window.onload = choosePic;
-
-        var myPix = new Array("/puzzle/title-1.png","/puzzle/title-2.png","/puzzle/titulo-3.png","/puzzle/title-4.png","/puzzle/title-5.png",);
-        
-        function choosePic() {
-             var randomNum = Math.floor(Math.random() * myPix.length);
-             document.getElementById("titleRandom").src = myPix[randomNum];}</script>
+    <script src="img changer.js"></script>
         <div class="puzDiv container">
-        <img id="titleRandom" style="align-content:center;" src="/puzzle/title-1.png" >
+        <img id="titleRandom" alt="" style="align-content:center;" src="/puzzle/title-1.png" >
         </div>
         <a href="one.html">play game</a><br><br>
         <a href="../">go back</a>
