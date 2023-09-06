@@ -7,9 +7,10 @@
         <p class="puzzle" id="alt">redirecting...</p>
     </body>
     <script>
+        var level3 = localStorage.getItem('level3');
         window.onload = redirect();
         function redirect(){
-        if (localStorage.getItem('level3') = "done"){
+        if (level3 = "done"){
                 sleep (3);
             window.location.href = "https://speechincoherent.github.io/puzzle/four.html";
         } else{
