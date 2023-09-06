@@ -3,10 +3,18 @@
     <head>
         <title>redirect</title>
     </head>
+    <body>
+        <p class="puzzle" id="alt">redirecting...</p>
+    </body>
     <script>
         window.onload = redirect()
         function redirect(){
-        window.location.replace = "https://speechincoherent.github.io/puzzle/four.html"
+            if (localStorage.getItem('level3') = done){
+        window.location.href = "https://speechincoherent.github.io/puzzle/four.html"
+            }
+            else{
+                document.getElementById("alt").innerHTML = "do the puzzle."
+            }
         }
     </script>
 </html>
