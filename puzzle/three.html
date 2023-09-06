@@ -7,14 +7,14 @@
         <p class="puzzle" id="alt">redirecting...</p>
     </body>
     <script>
-        window.onload = redirect()
+        window.onload = redirect();
         function redirect(){
-            if (localStorage.getItem('level3') = done){
-        window.location.href = "https://speechincoherent.github.io/puzzle/four.html"
-            }
-            else{
-                document.getElementById("alt").innerHTML = "do the puzzle."
-            }
+        if (localStorage.getItem('level3') = "done"){
+                sleep (3);
+            window.location.href = "https://speechincoherent.github.io/puzzle/four.html";
+        } else{
+                document.getElementById("alt").innerHTML = "do the puzzle.";
+        }
         }
     </script>
 </html>
