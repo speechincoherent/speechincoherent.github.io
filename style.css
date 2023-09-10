@@ -72,7 +72,7 @@ div.puzzle {
     padding: 5px 12px;
     cursor:pointer;
     float:left;
-    border-right:1px;
+    border-right:white 1px;
 }
 .btngroup button:hover{
     background-color:#444;
