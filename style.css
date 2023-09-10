@@ -80,3 +80,6 @@ div.puzzle {
 .btn-group button:not(:last-child) {
     border-right: none;
 }
+button.main {
+    font-size:14px;
+}
