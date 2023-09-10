@@ -73,6 +73,7 @@ div.puzzle {
     cursor:pointer;
     float:left;
     border-right:white 1px;
+    transition:0.5s;
 }
 .btngroup button:hover{
     background-color:#444;
