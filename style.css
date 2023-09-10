@@ -46,7 +46,7 @@ img {
 
 a.puzzle{
     font-size: large;
-    text-align: center;
+    align-content: center;
 }
 
 div.puzDiv {
