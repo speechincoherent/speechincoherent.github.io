@@ -61,8 +61,8 @@ p.puzzle {
 }
 div.puzzle {
     border: 3px #ffffff;
-    justify-content:center;
-    
+    justify-content: center;
+    align-content: center;
 }
 .untouchable {
     user-select: none;
