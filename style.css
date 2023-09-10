@@ -72,8 +72,11 @@ div.puzzle {
     padding: 5px 12px;
     cursor:pointer;
     float:left;
-    border:none;
+    border-right:1px;
 }
 .btngroup button:hover{
     background-color:#444;
+}
+.btn-group button:not(:last-child) {
+    border-right: none;
 }
