@@ -10,3 +10,6 @@
     transform: none;
     visibility: visible;
   }
+  pre {
+    color:white;
+  }
