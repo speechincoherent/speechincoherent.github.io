@@ -1,0 +1,87 @@
+/* get out of here why are you here please leave */
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+body {
+    background-image: url("real\ black\ bapckground.jpg");
+    background-size: cover;
+    background-color: black;
+    background-repeat: repeat;
+}
+
+a {
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:underline;
+    text-shadow: 1px 1px 2px #ffffff
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+img {
+    align-self: center;
+}
+
+.img2 {
+    float:right;
+}
+
+.infoDiv {
+    background: color #000;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+a.puzzle{
+    font-size: large;
+    align-content: center;
+}
+
+div.puzDiv {
+border: 1px outset #ffffff;
+text-align: center;
+}
+
+p.puzzle {
+    text-align: center;
+    color:#ffffff;
+    font-size: medium;
+}
+div.puzzle {
+    border: 3px #ffffff;
+    justify-content: center;
+    align-content: center;
+}
+.untouchable {
+    user-select: none;
+}
+.btngroup button{
+    color:white;
+    background-color: #000;
+    padding: 5px 12px;
+    cursor:pointer;
+    float:left;
+    border-right:white 1px;
+    transition:0.5s;
+}
+.btngroup button:hover{
+    background-color:#444;
+}
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+button.main {
+    font-size:14px;
+}
