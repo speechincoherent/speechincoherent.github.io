@@ -25,3 +25,6 @@ function redirectContact() {
 function redirectGame() {
     window.location.href = "https://speechincoherent.github.io/puzzle/start"
 }
+function redirectBlog() {
+    window.location.href = "https://speechincoherent.github.io/blog"
+}
