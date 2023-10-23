@@ -85,3 +85,6 @@ div.puzzle {
 button.main {
     font-size:14px;
 }
+button:disabled {
+    background-color: #444;
+}
