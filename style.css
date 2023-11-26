@@ -61,7 +61,7 @@ p.puzzle {
 }
 div.puzzle {
     border: 3px #ffffff;
-    justify-content: center;
+    justify-self: center;
     align-content: center;
 }
 .untouchable {
