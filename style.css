@@ -67,6 +67,7 @@ div.puzzle {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    max-width:fit-content
 }
 .untouchable {
     user-select: none;
