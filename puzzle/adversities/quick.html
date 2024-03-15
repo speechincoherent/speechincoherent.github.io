@@ -10,10 +10,11 @@
         <script>
             window.onload = fakeredirect();
             function fakeredirect() {
-                setTimeout(function() {
-                    window.location.href = "final.html"
-                }, (750)
-                );
+                for (let i = 0; i < 5; i++) {
+                    setTimeout(() => { 
+                        window.location.href = "final.html"
+                         }, i * 1000);
+                }
             }
             /* /puzzle/zeropointone/antidisestablishmentarianism.html */
         </script>
