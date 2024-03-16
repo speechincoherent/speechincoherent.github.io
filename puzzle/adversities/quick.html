@@ -8,13 +8,13 @@
     </head>
     <body>
         <script>
-            window.onload = fakeredirect();
-            function fakeredirect() {
-                for (let i = 0; i < 5; i++) {
-                    setTimeout(() => { 
-                        window.location.href = "final.html"
-                         }, i * 1000);
-                }
+            window.onload = delayedredirect(1000);
+            function redirect() {
+                window.location.href = "https://speechincoherent.github.io/puzzle/adversities/final.html"
+            }
+
+            function delayedredirect(delay) {
+                setTimeout(redirect(),delay)
             }
             /* /puzzle/zeropointone/antidisestablishmentarianism.html */
         </script>
