@@ -31,3 +31,6 @@ function redirectBlog() {
 function redirectHome() {
     window.location.href = "https://speechincoherent.github.io"
 }
+function delayedredirect(delay) {
+    setTimeout(redirect(),(delay));
+};
