@@ -61,6 +61,11 @@ div.puzzle {
     justify-self: center;
     align-content: center;
     width: 50%;
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .untouchable {
     user-select: none;
