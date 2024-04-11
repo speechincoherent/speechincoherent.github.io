@@ -1,15 +1,12 @@
-if (getCookie('hydrogen')) {
-document.cookie = "hydrogen=false";
-}
-let currentLevel = this.href.substring(this.href.lastIndexOf('/') + 1);
-if (currentLevel == "hydrogen") {
+function hydrogenCookie() {
     document.cookie = "hydrogen=true"
-};
+}
 
 
 
 
 // scrap code, i don't wanna just delete it though so it stays here
+if (1 = 2) {
 const milestones = ["hydrogen"];
 function logmilestone() {
 if (milestones.includes(this.href.substring(this.href.lastIndexOf('/') + 1))) {
@@ -29,4 +26,11 @@ if (milestones.includes(this.href.substring(this.href.lastIndexOf('/') + 1))) {
         };
     };
 };
-
+if (getCookie('hydrogen')) {
+    document.cookie = "hydrogen=false";
+    }
+    let currentLevel = this.href.substring(this.href.lastIndexOf('/') + 1);
+    if (currentLevel == "hydrogen") {
+        document.cookie = "hydrogen=true"
+    };
+}
