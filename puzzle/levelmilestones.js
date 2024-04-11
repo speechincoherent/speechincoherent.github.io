@@ -1,3 +1,4 @@
+window.onload = hydrogen();
 function hydrogen() {
     if (localStorage.getItem(hydrogen) = true) {
         void(0);
