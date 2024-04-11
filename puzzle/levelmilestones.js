@@ -1,11 +1,11 @@
 function hydrogen() {
     if (localStorage.getItem(hydrogen) = true) {
-        void(0)
+        void(0);
     }
     else {
-    localStorage.setItem(hydrogenMilestone, true)
+    localStorage.setItem(hydrogenMilestone, true);
     }
-}
+};
 
 
 // scrap code, i don't wanna just delete it though so it stays here
